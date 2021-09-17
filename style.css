@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+/* font-family: 'Glory', sans-serif; */
+
+* {
+    font-family: 'Glory', sans-serif;
+}
+
+body{
+    margin: 10px;
+    background-color: rgb(19, 73, 95);
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.teal {
+    background-color: teal;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#navbar {
+    display: flex;
+    background-color: dimgray;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar a:hover {
+    color: rgb(60, 185, 123)
+}
+
+#logo-image {
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#mage {
+    color: white;
+}
